@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.imagem_logo {
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    width: 450px;
+   
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    outline: none;
+    border-radius: 50%;
+    margin-top: 1rem;
+    background: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 22px 22px 60px rgba(255,255,255,0.05),
+                  22px 22px 60px rgba(0,0,0,0.5); 
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#nome {
+    text-align: center;
+    
+}
+
+#main {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 3rem;
+    background: rgba(43, 47, 47, 0.404);
+    border-radius: 20px;
+    box-shadow: 22px 22px 60px rgba(255,255,255,0.05),
+                  22px 22px 60px rgba(0,0,0,0.5); 
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.div-tipo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    margin-left: 2rem;
+}
+#imagem {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 2.5rem;
+    background: rgba(228, 235, 222, 0.87);
+    border-radius: 50%;
+   
+}
+.imagem_pokemons {
+    width: 300px;
+    height: 250px;
+}
